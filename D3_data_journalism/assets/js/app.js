@@ -1,5 +1,5 @@
 // class activity day 3, level 9
-var svgWidth = 1000;
+var svgWidth = 900;
 var svgHeight = 700;
 var margin = {top: 20, right: 40, bottom: 60, left: 100};
 var width = svgWidth - margin.left - margin.right;
