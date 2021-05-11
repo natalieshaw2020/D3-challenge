@@ -1,5 +1,4 @@
-
-
+// class activity day 3, level 9
 var svgWidth = 1000;
 var svgHeight = 700;
 var margin = {top: 20, right: 40, bottom: 60, left: 100};
@@ -74,7 +73,6 @@ d3.csv("assets/data/data.csv").then(function(healthData) {
       .on("mouseout", function(data, index) {
         toolTip.hide(data);
       });
-    return circlesGroup;
     // axes labels
     chartGroup.append("text")
       .attr("transform", "rotate(-90)")
